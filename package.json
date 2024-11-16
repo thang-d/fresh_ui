@@ -1,5 +1,5 @@
 {
-  "name": "fresh",
+  "name": "home_landing_ui",
   "version": "5.3.0",
   "description": "Fresh - Bulma + Alpine JS landing page",
   "type": "module",
@@ -11,9 +11,9 @@
     "node": ">=18",
     "pnpm": ">=8"
   },
-  "license": "SEE LICENSE IN LICENSE.md",
+  "license": "MIT",
   "scripts": {
-    "dev": "astro dev",
+    "dev": "astro dev --host",
     "start": "astro dev",
     "build": "run-s build:*",
     "build:astro": "astro build",
@@ -21,28 +21,28 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@alpinejs/collapse": "3.13.10",
-    "@alpinejs/intersect": "3.13.10",
-    "@alpinejs/persist": "3.13.10",
-    "alpinejs": "3.13.10",
-    "astro": "4.7.0",
-    "bulma": "0.9.4",
+    "@alpinejs/collapse": "^3.14.3",
+    "@alpinejs/intersect": "^3.14.3",
+    "@alpinejs/persist": "^3.14.3",
+    "alpinejs": "^3.14.3",
+    "astro": "^4.16.13",
+    "autoprefixer": "^10.4.20",
+    "bulma": "^1.0.2",
     "bulma-css-vars": "0.8.0",
     "fuse.js": "7.0.0",
     "iconify-icon": "^2.0.0",
-    "js-datepicker": "5.18.2",
+    "js-datepicker": "^5.18.3",
     "lozad": "1.16.0",
     "moment": "2.30.1",
     "notyf": "3.10.0",
     "plyr": "3.7.8",
-    "sass": "1.75.0",
-    "simplebar": "6.2.5"
+    "sass": "^1.81.0",
+    "simplebar": "^6.2.7"
   },
   "devDependencies": {
     "@fontsource-variable/nunito": "^5.0.19",
     "@fontsource-variable/roboto-flex": "^5.0.15",
     "@fontsource/material-icons": "^5.0.18",
-    "autoprefixer": "10.4.19",
     "npm-run-all": "4.1.5"
   }
 }
